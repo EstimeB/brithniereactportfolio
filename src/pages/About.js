@@ -16,6 +16,7 @@ export default function About() {
 const styles = {
   div: {
     textAlign: 'center',
+    textShadow: '15px 15px 35px rgb(151, 151, 143)',
   },
   img1: {
     border: 'solid',
@@ -27,7 +28,6 @@ const styles = {
   },
   h1: {
     fontSize: '45px',
-    textShadow: '15px 15px 35px rgb(151, 151, 143)',
   },
   p: {
     marginTop: '-15px',

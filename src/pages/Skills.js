@@ -56,10 +56,10 @@ export default function Skills() {
 const styles = {
   div: {
     // textAlign: "center",
+    textShadow: '15px 15px 35px rgb(151, 151, 143)',
   },
   h1: {
     fontSize: "45px",
-    textShadow: "15px 15px 35px rgb(151, 151, 143)",
     textAlign: "center",
   },
   h3: {

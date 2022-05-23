@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -17,6 +18,9 @@ function App() {
     }
     if (currentPage === 'Skills') {
       return <Skills />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
   };
 
