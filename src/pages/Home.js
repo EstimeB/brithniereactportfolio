@@ -29,5 +29,11 @@ const styles = {
     fontSize: '45px',
     textShadow: '15px 15px 35px rgb(151, 151, 143)',
   },
-
+  h3: {
+    marginTop: '-35px',
+    fontSize: '22px'
+  },
+  p: {
+    marginTop: '-15px',
+  }
 }

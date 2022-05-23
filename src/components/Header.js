@@ -14,6 +14,15 @@ function Header({ currentPage, handlePageChange }) {
         >
           Home
         </a>
+        <a
+          style={styles.a}
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          // Checks to see if Home is the current to set it to either active or not  
+          className={currentPage === 'About' ? 'header-link active' : 'header-link'}
+        >
+          About
+        </a>
       </li>
     </ul>
   );
@@ -22,6 +31,8 @@ function Header({ currentPage, handlePageChange }) {
 const styles = {
   li: {
     listStyleType: 'none',
+    display: 'flex',
+    gap: '15px',
   },
   a: {
     textDecoration: 'none',
