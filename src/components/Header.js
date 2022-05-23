@@ -37,9 +37,18 @@ function Header({ currentPage, handlePageChange }) {
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
           // Checks to see if Home is the current to set it to either active or not  
-          className={currentPage === 'Skills' ? 'header-link active' : 'header-link'}
+          className={currentPage === 'Portfolio' ? 'header-link active' : 'header-link'}
         >
           Portfolio
+        </a>
+        <a
+          style={styles.a}
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          // Checks to see if Home is the current to set it to either active or not  
+          className={currentPage === 'Contact' ? 'header-link active' : 'header-link'}
+        >
+          Contact
         </a>
       </li>
     </ul>

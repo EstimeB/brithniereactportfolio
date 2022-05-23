@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -21,6 +22,9 @@ function App() {
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
   };
 
