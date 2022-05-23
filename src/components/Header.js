@@ -4,8 +4,9 @@ import React from 'react';
 function Header({ currentPage, handlePageChange }) {
   return (
     <ul>
-      <li>
+      <li style={styles.li}>
         <a
+          style={styles.a}
           href="#home"
           onClick={() => handlePageChange('Home')}
           // Checks to see if Home is the current to set it to either active or not  
@@ -16,6 +17,18 @@ function Header({ currentPage, handlePageChange }) {
       </li>
     </ul>
   );
+}
+
+const styles = {
+  li: {
+    listStyleType: 'none',
+  },
+  a: {
+    textDecoration: 'none',
+    color: 'black',
+    fontSize: '20px',
+  }
+
 }
 
 export default Header;
