@@ -93,6 +93,7 @@ const styles = {
     height: "180px",
   },
   h1: {
+    marginTop: '130px',
     fontSize: "45px",
     textAlign: "center",
   },

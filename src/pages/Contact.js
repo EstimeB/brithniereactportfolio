@@ -18,21 +18,11 @@ const styles = {
     textAlign: "center",
     textShadow: "15px 15px 35px rgb(151, 151, 143)",
   },
-  img1: {
-    border: "solid",
-    borderWidth: "1px",
-    borderColor: "goldenrod",
-    boxShadow: "15px 15px 35px rgb(151, 151, 143)",
-  },
   h1: {
+    marginTop: '130px',
     fontSize: "45px",
-  },
-  h3: {
-    marginTop: "-35px",
-    fontSize: "22px",
   },
   p: {
     marginTop: "-15px",
-    gap: "15px",
   },
 };

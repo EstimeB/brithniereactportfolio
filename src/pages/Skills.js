@@ -59,6 +59,7 @@ const styles = {
     textShadow: '15px 15px 35px rgb(151, 151, 143)',
   },
   h1: {
+    marginTop: '130px',
     fontSize: "45px",
     textAlign: "center",
   },

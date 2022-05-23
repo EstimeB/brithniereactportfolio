@@ -19,6 +19,7 @@ const styles = {
     textShadow: '15px 15px 35px rgb(151, 151, 143)',
   },
   img1: {
+    marginTop: '130px',
     border: 'solid',
     borderWidth: '1px',
     borderColor: 'goldenrod',
