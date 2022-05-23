@@ -23,6 +23,15 @@ function Header({ currentPage, handlePageChange }) {
         >
           About
         </a>
+        <a
+          style={styles.a}
+          href="#skills"
+          onClick={() => handlePageChange('Skills')}
+          // Checks to see if Home is the current to set it to either active or not  
+          className={currentPage === 'Skills' ? 'header-link active' : 'header-link'}
+        >
+          Skills
+        </a>
       </li>
     </ul>
   );

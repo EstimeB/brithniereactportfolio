@@ -6,7 +6,6 @@ export default function About() {
     <div style={styles.div}>
       <img style={styles.img1} src={aboutI} alt="Avatar" />
       <h1 style={styles.h1}>About me</h1>
-      {/* <h3 style={styles.h3}>Full Stack Web Developer</h3> */}
       <p style={styles.p}>
       Will soon graduate from full stack academy. Currently learning and will soon be an expert in the ins and outs of the web. Already am obsses with the field and expect to be an outstanding full stack web developer. I like cleanly written codes and when it comes to CSS/server side scripting, I am obsses with the details and ensuring that all users get the experience they deserve.
       </p>
@@ -17,7 +16,6 @@ export default function About() {
 const styles = {
   div: {
     textAlign: 'center',
-
   },
   img1: {
     border: 'solid',
@@ -30,10 +28,6 @@ const styles = {
   h1: {
     fontSize: '45px',
     textShadow: '15px 15px 35px rgb(151, 151, 143)',
-  },
-  h3: {
-    marginTop: '-35px',
-    fontSize: '22px'
   },
   p: {
     marginTop: '-15px',

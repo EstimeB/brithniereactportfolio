@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
+import Skills from './pages/Skills';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -13,6 +14,9 @@ function App() {
     }
     if (currentPage === 'About') {
       return <About />;
+    }
+    if (currentPage === 'Skills') {
+      return <Skills />;
     }
   };
 

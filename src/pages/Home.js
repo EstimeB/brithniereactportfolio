@@ -17,7 +17,6 @@ export default function Home() {
 const styles = {
   div: {
     textAlign: 'center',
-
   },
   img1: {
     border: 'solid',
