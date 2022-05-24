@@ -15,13 +15,12 @@ export default function Home() {
     <div style={styles.div}>
       <h1 style={styles.h1}>Portfolio</h1>
       <ul style={styles.pUl}>
-
         {/* <li>
-          <a style={styles.p} href="">
+          <a style={styles.p} target="_blank" rel="noreferrer" href="">
           
             <br></br>
             <img src="" alt="" style={styles.img1} />
-            <a style={styles.p} href="">
+            <a style={styles.p} target="_blank" rel="noreferrer" href="">
              GitHub
             </a>
           </a>
@@ -30,6 +29,8 @@ export default function Home() {
         <li>
           <a
             style={styles.p}
+            target="_blank"
+            rel="noreferrer"
             href="https://quiet-woodland-72863.herokuapp.com/"
           >
             Tech Blog
@@ -38,6 +39,8 @@ export default function Home() {
             <br></br>
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/EstimeB/The_Technological-Blog"
             >
               Tech Blog GitHub
@@ -48,6 +51,8 @@ export default function Home() {
         <li>
           <a
             style={styles.p}
+            target="_blank"
+            rel="noreferrer"
             href="https://drive.google.com/file/d/1KHxGYg8mmpLpKTjp760WlWycuyUW6MnF/view?usp=sharing"
           >
             E-Commerce Back End
@@ -56,6 +61,8 @@ export default function Home() {
             <br></br>
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/EstimeB/ORM_E-COMM_B-End"
             >
               E-Commerce Back End GitHub
@@ -66,6 +73,8 @@ export default function Home() {
         <li>
           <a
             style={styles.p}
+            target="_blank"
+            rel="noreferrer"
             href="https://drive.google.com/file/d/18JSghIxWoSCRjXf4pT6bTtG-nZDbZJfI/view?usp=sharing"
           >
             Employee Management System
@@ -78,6 +87,8 @@ export default function Home() {
             <br></br>
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/EstimeB/The_Emp-Tracker_App"
             >
               Employee Management System GitHub
@@ -88,6 +99,8 @@ export default function Home() {
         <li>
           <a
             style={styles.p}
+            target="_blank"
+            rel="noreferrer"
             href="https://sheltered-meadow-95267.herokuapp.com/"
           >
             Note Taker
@@ -100,6 +113,8 @@ export default function Home() {
             <br></br>
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/EstimeB/Notes-app_Note-Taker-Ass"
             >
               Note Taker GitHub
@@ -110,10 +125,14 @@ export default function Home() {
         <li>
           <a
             style={styles.p}
+            target="_blank"
+            rel="noreferrer"
             href="https://drive.google.com/file/d/19fyx7Giz8jT26uLo2obSjspr9DBaEfDh/view?usp=sharing"
           >
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1PAl39R2gNaiA_mwAVNewVupqwl2G6Wxl/view?usp=sharing"
             >
               Team Profile Generator
@@ -126,6 +145,8 @@ export default function Home() {
               <br></br>
               <a
                 style={styles.p}
+                target="_blank"
+                rel="noreferrer"
                 href="https://github.com/EstimeB/-teamProfile-Gen/"
               >
                 Team Profile Generator GitHub
@@ -135,11 +156,11 @@ export default function Home() {
         </li>
 
         {/* <li>
-          <a style={styles.p} href="">
+          <a style={styles.p} target="_blank" rel="noreferrer" href="">
           Good README Generator
             <br></br>
             <img src="" alt="" style={styles.img1} />
-            <a style={styles.p} href="">
+            <a style={styles.p} target="_blank" rel="noreferrer" href="">
               Good README Generator GitHub
             </a>
           </a>
@@ -148,6 +169,8 @@ export default function Home() {
         <li>
           <a
             style={styles.p}
+            target="_blank"
+            rel="noreferrer"
             href="https://supbake.github.io/group_project_one/"
           >
             AniMag (Project One)
@@ -161,6 +184,8 @@ export default function Home() {
             <br></br>
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/Supbake/group_project_one"
             >
               Project One GitHub
@@ -169,45 +194,52 @@ export default function Home() {
         </li>
 
         {/* <li>
-          <a style={styles.p} href="">
+          <a style={styles.p} target="_blank" rel="noreferrer" href="">
           Weather Dashboard
             <br></br>
             <img src="" alt="" style={styles.img1} />
-            <a style={styles.p} href="">
+            <a style={styles.p} target="_blank" rel="noreferrer" href="">
              Weather Dashboard GitHub
             </a>
           </a>
         </li> */}
 
         {/* <li>
-          <a style={styles.p} href="">
+          <a style={styles.p} target="_blank" rel="noreferrer" href="">
           Day Planner
             <br></br>
             <img src="" alt="" style={styles.img1} />
-            <a style={styles.p} href="">
+            <a style={styles.p} target="_blank" rel="noreferrer" href="">
              Day Planner GitHub
             </a>
           </a>
         </li> */}
 
         {/* <li>
-          <a style={styles.p} href="">
+          <a style={styles.p} target="_blank" rel="noreferrer" href="">
             Regex Tutorial
             <br></br>
             <img src="" alt="regex-tutorial_img" style={styles.img1}/>
             <br></br>
-            <a style={styles.p} href="">Regex Tutorial GitHub</a>
+            <a style={styles.p} target="_blank" rel="noreferrer" href="">Regex Tutorial GitHub</a>
           </a>
         </li> */}
 
         <li>
-          <a style={styles.p} href="https://estimeb.github.io/Code-Quiz-Project/">
+          <a
+            style={styles.p}
+            target="_blank"
+            rel="noreferrer"
+            href="https://estimeb.github.io/Code-Quiz-Project/"
+          >
             Code Quiz
             <br></br>
             <img src={codeQ} alt="code-quiz_page-img" style={styles.img1} />
             <br></br>
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/EstimeB/Code-Quiz-Project"
             >
               Code Quiz GitHub
@@ -216,7 +248,12 @@ export default function Home() {
         </li>
 
         <li>
-          <a style={styles.p} href="https://estimeb.github.io/JS-Project_Password-Generator/">
+          <a
+            style={styles.p}
+            target="_blank"
+            rel="noreferrer"
+            href="https://estimeb.github.io/JS-Project_Password-Generator/"
+          >
             Password Generator
             <br></br>
             <img
@@ -227,6 +264,8 @@ export default function Home() {
             <br></br>
             <a
               style={styles.p}
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/EstimeB/JS-Project_Password-Generator"
             >
               Password Generator GitHub
@@ -235,7 +274,10 @@ export default function Home() {
         </li>
       </ul>
       <h3 style={styles.h3}>Projects</h3>
-      <p style={styles.p}>Web pages' fit most screen size. Scroll for more images and click on each for demonstration.</p>
+      <p style={styles.p}>
+        Web pages' fit most screen size. Scroll for more images and click on
+        each for demonstration.
+      </p>
     </div>
   );
 }

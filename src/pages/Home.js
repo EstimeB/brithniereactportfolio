@@ -11,13 +11,13 @@ export default function Home() {
       <h1 style={styles.h1}>Brithnie Estime</h1>
       <h3 style={styles.h3}>Full Stack Web Developer</h3>
       <p style={styles.p}>Knowledgeable and proficient in many technologies.</p>
-      <a href="https://github.com/EstimeB">
+      <a href="https://github.com/EstimeB" target="_blank" rel="noreferrer">
         <img src={github} alt="GitHub" />
       </a>
-      <a href="https://drive.google.com/file/d/1TGpKY6qLVkeNsneBpbVdabSpBXLJbbew/view?usp=sharing">
+      <a href="https://drive.google.com/file/d/1TGpKY6qLVkeNsneBpbVdabSpBXLJbbew/view?usp=sharing" target="_blank" rel="noreferrer">
         <img src={resume} alt="Resume" />
       </a>
-      <a href="https://www.linkedin.com/in/brithnieestime/">
+      <a href="https://www.linkedin.com/in/brithnieestime/" target="_blank" rel="noreferrer">
         <img src={linkedin} alt="Linkedin" />
       </a>
     </div>
