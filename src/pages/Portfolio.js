@@ -10,7 +10,7 @@ import techb from "../images/techBlog.jpg";
 import codeQ from "../images/c-q.jpg";
 import passgen from "../images/p-g.jpg";
 
-export default function Home() {
+export default function Portfolio() {
   return (
     <div style={styles.div}>
       <h1 style={styles.h1}>Portfolio</h1>

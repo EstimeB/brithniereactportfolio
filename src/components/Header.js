@@ -15,7 +15,7 @@ function Header({ currentPage, handlePageChange }) {
               currentPage === "Home" ? "header-link active" : "header-link"
             }
           >
-            Home
+            Brithnie Estime
           </a>
           <a
             style={styles.a}
@@ -26,18 +26,7 @@ function Header({ currentPage, handlePageChange }) {
               currentPage === "About" ? "header-link active" : "header-link"
             }
           >
-            About
-          </a>
-          <a
-            style={styles.a}
-            href="#skills"
-            onClick={() => handlePageChange("Skills")}
-            // Checks to see if Home is the current to set it to either active or not
-            className={
-              currentPage === "Skills" ? "header-link active" : "header-link"
-            }
-          >
-            Skills
+            About me
           </a>
           <a
             style={styles.a}
@@ -60,6 +49,17 @@ function Header({ currentPage, handlePageChange }) {
             }
           >
             Contact
+          </a>
+          <a
+            style={styles.a}
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            // Checks to see if Home is the current to set it to either active or not
+            className={
+              currentPage === "Resume" ? "header-link active" : "header-link"
+            }
+          >
+            Resume
           </a>
         </li>
       </ul>

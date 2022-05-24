@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div style={styles.div}>
       <h1 style={styles.h1}>Contact</h1>
       <p style={styles.p}>
         Email: &nbsp;
-        <a href="mailto:patrick@gmail.com">estimebrithnie@yahoo.com</a>
+        <a href="mailto:estimebrithnie@yahoo.com">Brithnie Estime</a>
       </p>
       <p style={styles.p}>Phone: &nbsp; (760)267-7388</p>
     </div>

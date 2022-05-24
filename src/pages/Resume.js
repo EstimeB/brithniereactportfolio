@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Skills() {
+export default function Resume() {
   return (
     <div style={styles.div}>
-      <h1 style={styles.h1}>Skills</h1>
+      <h1 style={styles.h1}>Resume</h1>
       <p style={styles.p}>
         Posses strong creative ability, attention to detail, logical approach to
         work, excellent problem-solving skills. Proficient in programing
