@@ -14,8 +14,8 @@ export default function Skills() {
         my ability to explain technical matters clearly, and more.
       </p>
       <h3 style={styles.h3}>◆</h3>
-      <h3 style={styles.h3}>My technical Level</h3>
-      <div className="dropdown frontEnd">
+      {/* <h3 style={styles.h3}>My technical Level</h3> */}
+      {/* <div className="dropdown frontEnd">
         <p class="dropbtn" onclick="feFunction(this)">
           🖥 FrontEnd Developer
         </p>
@@ -28,8 +28,8 @@ export default function Skills() {
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          {/* <li>React</li> */}
-          {/* <li>React </li> */}
+          <li>React</li>
+          <li>React </li>
         </ul>
       </div>
       <div className="dropdown frontEnd">
@@ -45,10 +45,10 @@ export default function Skills() {
           <li>Node JS</li>
           <li>SQL</li>
           <li>Express JS</li>
-          {/* <li>Python</li> */}
-          {/* <li>PHP</li> */}
+          <li>Python</li>
+          <li>PHP</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
