@@ -59,12 +59,14 @@ const styles = {
   li: {
     listStyleType: 'none',
     display: 'flex',
-    gap: '15px',
+    gap: '45px',
   },
   a: {
+    marginTop: '40px',
+    marginBottom: '-40px',
     textDecoration: 'none',
     color: 'black',
-    fontSize: '20px',
+    fontSize: '30px',
   }
 
 }
