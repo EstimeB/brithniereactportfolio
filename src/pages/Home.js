@@ -1,7 +1,6 @@
 import React from "react";
 import avatar from "../images/avatar.jpeg";
 import github from "../images/icons/github.png";
-import resume from "../images/icons/resume.png";
 import linkedin from "../images/icons/linkedin.png";
 
 export default function Home() {
@@ -13,9 +12,6 @@ export default function Home() {
       <p style={styles.p}>Knowledgeable and proficient in many technologies.</p>
       <a href="https://github.com/EstimeB" target="_blank" rel="noreferrer">
         <img src={github} alt="GitHub" />
-      </a>
-      <a href="https://drive.google.com/file/d/1TGpKY6qLVkeNsneBpbVdabSpBXLJbbew/view?usp=sharing" target="_blank" rel="noreferrer">
-        <img src={resume} alt="Resume" />
       </a>
       <a href="https://www.linkedin.com/in/brithnieestime/" target="_blank" rel="noreferrer">
         <img src={linkedin} alt="Linkedin" />

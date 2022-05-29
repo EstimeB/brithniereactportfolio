@@ -1,4 +1,6 @@
 import React from "react";
+import resume from "../resumePDF/resume.pdf";
+import resumeIcon from "../images/icons/pdf.png";
 
 export default function Resume() {
   return (
@@ -29,7 +31,7 @@ export default function Resume() {
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
-          <li>React </li>
+          <li> </li>
         </ul>
       </div>
       <div className="dropdown frontEnd">
@@ -49,6 +51,12 @@ export default function Resume() {
           <li>PHP</li>
         </ul>
       </div> */}
+      <div  style={styles.res} >
+        <a download='Brithnie-s_Resume.pdf' style={styles.aLink} href={resume}target="_blank" rel="noreferrer">
+          <img src={resumeIcon} alt="Resume" style={styles.resI} />
+          <p style={styles.pTag}>Download Resume</p>
+        </a>
+      </div>
     </div>
   );
 }
@@ -56,10 +64,10 @@ export default function Resume() {
 const styles = {
   div: {
     // textAlign: "center",
-    textShadow: '15px 15px 35px rgb(151, 151, 143)',
+    textShadow: "15px 15px 35px rgb(151, 151, 143)",
   },
   h1: {
-    marginTop: '130px',
+    marginTop: "130px",
     fontSize: "45px",
     textAlign: "center",
   },
@@ -71,13 +79,22 @@ const styles = {
     marginTop: "-15px",
     textAlign: "center",
   },
-  dropdownContent: {
-    display: "none",
+  // dropdownContent: {
+  //   display: "none",
+  // },
+  // dropdownCont: {
+  //   display: "none",
+  // },
+  res: {
+    textAlign: "center",
+    marginTop: '100px',
+    marginBottom: '-70px'
   },
-  dropdownCont: {
-    display: "none",
+  resI: {
+    width: '50px',
   },
-  //   frontEnd p:hover {
-  //       color: 'aqua',
-  //   }
+  aLink: {
+    textDecoration: "none",
+    color: 'black',
+  }
 };

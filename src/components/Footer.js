@@ -11,7 +11,7 @@ function Footer({ currentPage, handlePageChange }) {
 const styles = {
     rightReserved: {
         textAlign: 'center',
-        paddingTop: '70px'
+        marginTop: '100px',
     }
 }
 
