@@ -1,7 +1,7 @@
 import React from "react";
 import avatar from "../images/avatar.jpeg";
 import github from "../images/icons/github.png";
-import linkedin from "../images/icons/linkedin.png";
+import linkedin from "../images/icons/linkedin.webp";
 
 export default function Home() {
   return (
@@ -11,10 +11,14 @@ export default function Home() {
       <h3 style={styles.h3}>Full Stack Web Developer</h3>
       <p style={styles.p}>Knowledgeable and proficient in many technologies.</p>
       <a href="https://github.com/EstimeB" target="_blank" rel="noreferrer">
-        <img src={github} alt="GitHub" />
+        <img style={styles.iconG} src={github} alt="GitHub" />
       </a>
-      <a href="https://www.linkedin.com/in/brithnieestime/" target="_blank" rel="noreferrer">
-        <img src={linkedin} alt="Linkedin" />
+      <a
+        href="https://www.linkedin.com/in/brithnieestime/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img style={styles.iconL} src={linkedin} alt="Linkedin" />
       </a>
     </div>
   );
@@ -26,7 +30,7 @@ const styles = {
     textShadow: "15px 15px 35px rgb(151, 151, 143)",
   },
   img1: {
-    marginTop: '130px',
+    marginTop: "130px",
     border: "solid",
     borderWidth: "1px",
     borderColor: "goldenrod",
@@ -42,5 +46,13 @@ const styles = {
   },
   p: {
     marginTop: "-15px",
+    marginBottom: "50px",
+  },
+  iconG: {
+    width: "40px",
+    marginRight: "15px",
+  },
+  iconL: {
+    width: "40px",
   },
 };

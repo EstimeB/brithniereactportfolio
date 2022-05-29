@@ -4,19 +4,19 @@ import React from "react";
 function Header({ currentPage, handlePageChange }) {
   return (
     <header>
-      <ul>
-        <li style={styles.li}>
-          <a
-            style={styles.a}
-            href="#home"
-            onClick={() => handlePageChange("Home")}
-            // Checks to see if Home is the current to set it to either active or not
-            className={
-              currentPage === "Home" ? "header-link active" : "header-link"
-            }
-          >
-            Brithnie Estime
-          </a>
+      <a
+        style={styles.a}
+        href="#home"
+        onClick={() => handlePageChange("Home")}
+        // Checks to see if Home is the current to set it to either active or not
+        className={
+          currentPage === "Home" ? "header-link active" : "header-link"
+        }
+      >
+        <h1 style={styles.tilteH1}>Brithnie Estime</h1>
+      </a>
+      <ul  style={styles.li}>
+        <li>
           <a
             style={styles.a}
             href="#about"
@@ -26,8 +26,10 @@ function Header({ currentPage, handlePageChange }) {
               currentPage === "About" ? "header-link active" : "header-link"
             }
           >
-            About me
+            About
           </a>
+        </li>
+        <li>
           <a
             style={styles.a}
             href="#portfolio"
@@ -39,6 +41,8 @@ function Header({ currentPage, handlePageChange }) {
           >
             Portfolio
           </a>
+        </li>
+        <li>
           <a
             style={styles.a}
             href="#contact"
@@ -50,6 +54,8 @@ function Header({ currentPage, handlePageChange }) {
           >
             Contact
           </a>
+        </li>
+        <li>
           <a
             style={styles.a}
             href="#resume"
@@ -71,15 +77,19 @@ const styles = {
   li: {
     listStyleType: "none",
     display: "flex",
-    gap: "45px",
+    gap: "5px",
+    marginLeft: "300px",
+    marginRight: "30px",
   },
   a: {
-    marginTop: "40px",
-    marginBottom: "-40px",
     textDecoration: "none",
     color: "black",
-    fontSize: "30px",
+    fontSize: "20px",
+    marginLeft: "30px",
   },
+  titleH1: {
+    float: 'left',
+  }
 };
 
 export default Header;
