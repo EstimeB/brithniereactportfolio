@@ -51,8 +51,14 @@ export default function Resume() {
           <li>PHP</li>
         </ul>
       </div> */}
-      <div  style={styles.res} >
-        <a download='Brithnie-s_Resume.pdf' style={styles.aLink} href={resume}target="_blank" rel="noreferrer">
+      <div style={styles.res}>
+        <a
+          download="Brithnie-s_Resume.pdf"
+          style={styles.aLink}
+          href={resume}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={resumeIcon} alt="Resume" style={styles.resI} />
           <p style={styles.pTag}>Download Resume</p>
         </a>
@@ -87,14 +93,14 @@ const styles = {
   // },
   res: {
     textAlign: "center",
-    marginTop: '100px',
-    marginBottom: '-70px'
+    marginTop: "100px",
+    marginBottom: "-70px",
   },
   resI: {
-    width: '50px',
+    width: "50px",
   },
   aLink: {
     textDecoration: "none",
-    color: 'black',
-  }
+    color: "black",
+  },
 };
