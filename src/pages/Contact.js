@@ -52,7 +52,7 @@ export default function Contact() {
           placeholder="Message..."
         />
         <br></br>
-        <input type="submit" value="Send" style={styles.send}/>
+        <input type="submit" value="Send" style={styles.send} />
       </form>
     </div>
     // <div style={styles.div}>
@@ -75,14 +75,14 @@ const styles = {
   input: {
     width: "100%",
     height: "40px",
-    marginBottom: '10px',
-    borderRadius: '7px',
+    marginBottom: "10px",
+    borderRadius: "7px",
     boxShadow: "5px 5px 10px rgb(151, 151, 143)",
   },
   textArea: {
     width: "100%",
     height: "140px",
-    borderRadius: '7px',
+    borderRadius: "7px",
     boxShadow: "5px 5px 10px rgb(151, 151, 143)",
   },
   h1: {
@@ -93,10 +93,10 @@ const styles = {
     marginTop: "10px",
     width: "100%",
     height: "40px",
-    borderRadius: '7px',
+    borderRadius: "7px",
     boxShadow: "5px 5px 10px rgb(151, 151, 143)",
-    background: "rgb(44, 86, 86)"
-  }
+    background: "rgb(44, 86, 86)",
+  },
   // div: {
   //   textAlign: "center",
   //   textShadow: "15px 15px 35px rgb(151, 151, 143)",

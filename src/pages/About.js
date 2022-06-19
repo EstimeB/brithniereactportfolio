@@ -11,8 +11,8 @@ export default function About() {
         soon be an expert in the ins and outs of the web. Already am obsses with
         the field and expect to be an outstanding full stack web developer. I
         like cleanly written codes and when it comes to CSS/server side
-        scripting, I am obsessed with the details and ensuring that all users get
-        the experience they deserve.
+        scripting, I am obsessed with the details and ensuring that all users
+        get the experience they deserve.
       </p>
     </div>
   );

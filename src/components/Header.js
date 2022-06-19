@@ -1,10 +1,12 @@
 import React from "react";
+// import style sheet
+import "../style/header.css";
 
 // Using object destructuring assignment to pluck off variables from the props object
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header style={styles.header}>
-      <ul style={styles.li}>
+    <header className="header">
+      <ul className="li">
         {/* <li style={styles.li}> */}
         <a
           style={styles.titleA}
@@ -18,9 +20,8 @@ function Header({ currentPage, handlePageChange }) {
           Brithnie Estime
         </a>
         {/* </li> */}
-        <li style={styles.li}>
+        <li className="li">
           <a
-            style={styles.a}
             href="#about"
             onClick={() => handlePageChange("About")}
             // Checks to see if About is the current to set it to either active or not
@@ -31,9 +32,8 @@ function Header({ currentPage, handlePageChange }) {
             About
           </a>
         </li>
-        <li style={styles.li}>
+        <li className="li">
           <a
-            style={styles.a}
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
             // Checks to see if Portfolio is the current to set it to either active or not
@@ -44,9 +44,8 @@ function Header({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li style={styles.li}>
+        <li className="li">
           <a
-            style={styles.a}
             href="#contact"
             onClick={() => handlePageChange("Contact")}
             // Checks to see if Contact is the current to set it to either active or not
@@ -57,9 +56,8 @@ function Header({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li style={styles.li}>
+        <li className="li">
           <a
-            style={styles.a}
             href="#resume"
             onClick={() => handlePageChange("Resume")}
             // Checks to see if Home is the current to set it to either active or not
@@ -76,19 +74,6 @@ function Header({ currentPage, handlePageChange }) {
 }
 
 const styles = {
-  header: {
-    textAlign: "center",
-  },
-  li: {
-    listStyleType: "none",
-    display: "inline",
-    marginRight: "25px",
-  },
-  a: {
-    textDecoration: "none",
-    color: "black",
-    fontSize: "20px",
-  },
   titleA: {
     textDecoration: "none",
     fontSize: "40px",

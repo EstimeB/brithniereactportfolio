@@ -10,10 +10,10 @@ export default function Resume() {
         Posses strong creative ability, attention to detail, logical approach to
         work, excellent problem-solving skills. Proficient in programing
         languages and frameworks like JavaScript, HTML, CSS, SQL, jQuery,
-        Bootstrap, Node.js, MySQL, MongoDB, React, Express.js, and more
-        (Architectural patterns, techniques, paradigms, ...). Working on
-        improving my communication skills and crucial skills like web literacy,
-        my ability to explain technical matters clearly, and more.
+        Bootstrap, Node, MySQL, MongoDB, React, Express, and more (Architectural
+        patterns, techniques, paradigms, ...). Working on improving my
+        communication skills and crucial skills like web literacy, my ability to
+        explain technical matters clearly, and more.
       </p>
       <h3 style={styles.h3}>◆</h3>
       {/* <h3 style={styles.h3}>My technical Level</h3> */}
