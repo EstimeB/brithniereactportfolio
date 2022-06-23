@@ -1,11 +1,43 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+
+// Import the helper function that will check if email is valid
+import { validateEmail } from '../utils/helpers';
 
 export default function Contact() {
   const form = useRef();
 
+  // Create state variables for the fields in the form as well as setting their initial values to an empty string
+  const [email, setEmail] = useState('');
+  const [userName, setUserName] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    // Based on the input type, we set the state of either email, username, and message
+    if (inputType === 'email') {
+      setEmail(inputValue);
+    } else if (inputType === 'userName') {
+      setUserName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Will check if the email is not valid or if the userName is empty. If so will displayed an error message on the page.
+    if (!validateEmail(email) || !userName) {
+      setErrorMessage('Email, message, or username is invalid');
+      // Will exit out of the code block if something is wrong so that the user can correct it
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -17,12 +49,16 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          document.location.reload();
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    setUserName('');
+    setMessage('');
+    setEmail('');
   };
 
   return (
@@ -32,28 +68,40 @@ export default function Contact() {
         {/* <label>Name</label><br></br> */}
         <input
           style={styles.input}
+          value={userName}
           type="text"
-          name="user_name"
+          name="userName"
+          onChange={handleInputChange}
           placeholder="Name"
         />
         <br></br>
         {/* <label>Email</label><br></br> */}
         <input
           style={styles.input}
+          value={email}
           type="email"
-          name="user_email"
+          name="email"
+          onChange={handleInputChange}
           placeholder="Email"
         />
         <br></br>
         {/* <label>Message</label><br></br> */}
         <textarea
           style={styles.textArea}
+          value={message}
           name="message"
+          type="text"
+          onChange={handleInputChange}
           placeholder="Message..."
         />
         <br></br>
         <input type="submit" value="Send" style={styles.send} />
       </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
     // <div style={styles.div}>
     //   <p style={styles.p}>
