@@ -1,46 +1,26 @@
 import React from "react";
 
+// importing style sheet
+import "../style/portfolio.css";
+
+// Project card
 export default function Project(props) {
-  return <div></div>;
+  return (
+    <div className="main">
+      <div>
+        <a href={props.project.appDemoUrl} target="_blank" rel="noreferrer">
+          <img
+            className="portPict"
+            alt={`${props.project.name} project demo pict`}
+            src={props.demoPict}
+          />
+        </a>
+      </div>
+      <div>
+        <h3>{props.project.name}</h3>
+        <p>{props.project.description}</p>
+        <p>{props.project.tools}</p>
+      </div>
+    </div>
+  );
 }
-
-
-// const styles = {
-//   main: {
-//     textAlign: "center",
-//     textShadow: "15px 15px 35px rgb(151, 151, 143)",
-//   },
-//   img1: {
-//     boxShadow: "15px 15px 35px rgb(151, 151, 143)",
-//     width: "300px",
-//     height: "180px",
-//   },
-//   h1: {
-//     marginTop: "70px",
-//     fontSize: "45px",
-//     textAlign: "center",
-//   },
-//   h3: {
-//     marginTop: "-17px",
-//     fontSize: "22px",
-//   },
-//   p: {
-//     marginTop: "-15px",
-//     textDecoration: "none",
-//     color: "black",
-//   },
-//   div: {
-//     marginBottom: "25px",
-
-//   },
-//   pUl: {
-//     listStyleType: "none",
-//     display: "flex",
-//     flexWrap: "wrap",
-//     gap: "15px",
-//     overflowY: "scroll",
-//     height: "260px",
-//     textAlign: "center",
-//     justifyContent: "center",
-//   },
-// };

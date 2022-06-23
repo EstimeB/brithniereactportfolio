@@ -1,0 +1,44 @@
+.main {
+    text-shadow: 15px 15px 35px rgb(151, 151, 143);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 45px;
+}
+
+.portPict {
+    box-shadow: 15px 15px 35px rgb(151, 151, 143);
+    width: 100%;
+    height: 380px;
+}
+
+/*     
+    //   h1: {
+    //     marginTop: "70px",
+    //     fontSize: "45px",
+    //     textAlign: "center",
+    //   },
+    //   h3: {
+    //     marginTop: "-17px",
+    //     fontSize: "22px",
+    //   },
+    //   p: {
+    //     marginTop: "-15px",
+    //     textDecoration: "none",
+    //     color: "black",
+    //   },
+    //   div: {
+    //     marginBottom: "25px",
+  
+    //   },
+    //   pUl: {
+    //     listStyleType: "none",
+    //     display: "flex",
+    //     flexWrap: "wrap",
+    //     gap: "15px",
+    //     overflowY: "scroll",
+    //     height: "260px",
+    //     textAlign: "center",
+    //     justifyContent: "center",
+    //   },
+  };
+   */

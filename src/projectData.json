@@ -2,24 +2,27 @@
   "projects": [
     {
       "name": "Social Network API",
+      "demoPictTitle": "snApi",
       "description": "API built for social network web application. Non-deployable application. Created to handle large amounts of unstructured data.",
       "tools": "JavaScript, Express, MongoDB, Mongoose ODM",
-      "googleDocUrl": "https://drive.google.com/file/d/1OYTHauolP-Th4x_QNGfMIOgLChFiMXC3/view",
+      "appDemoUrl": "https://drive.google.com/file/d/1OYTHauolP-Th4x_QNGfMIOgLChFiMXC3/view",
       "githubUrl": "https://github.com/EstimeB/Social-Web_Net-API"
     },
     {
       "name": "Tech Blog",
+      "demoPictTitle": "techBlog",
       "description": "CMS-style blog site similar to a wordpress site. Follows the MVC paradigm in its architectural structure.",
       "tools": "JavaScript, MVC, SQL, Handlebars, CSS, MySQL",
-      "appUrl": "https://quiet-woodland-72863.herokuapp.com/",
+      "appDemoUrl": "https://quiet-woodland-72863.herokuapp.com/",
       "githubUrl": "https://github.com/EstimeB/The_Technological-Blog"
     },
     {
-      "name": "",
-      "description": "",
-      "tolls": "",
-      "youtubeUrl": "",
-      "githubUrl": ""
+      "name": "E-Commerce Back End",
+      "demoPictTitle": "ecBe",
+      "description": "Back end for e-commerce sites. Modified starter code. Created to facilitate users e-commerce website.",
+      "tools": "JavaScript, Express, MySQL, SQL, Sequelize",
+      "appDemoUrl": "https://drive.google.com/file/d/1KHxGYg8mmpLpKTjp760WlWycuyUW6MnF/view",
+      "githubUrl": "https://github.com/EstimeB/ORM_E-COMM_B-End"
     }
   ]
 }
