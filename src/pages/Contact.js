@@ -2,16 +2,16 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 // Import the helper function that will check if email is valid
-import { validateEmail } from '../utils/helpers';
+import { validateEmail } from "../utils/helpers";
 
 export default function Contact() {
   const form = useRef();
 
   // Create state variables for the fields in the form as well as setting their initial values to an empty string
-  const [email, setEmail] = useState('');
-  const [userName, setUserName] = useState('');
-  const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [email, setEmail] = useState("");
+  const [userName, setUserName] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -20,9 +20,9 @@ export default function Contact() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and message
-    if (inputType === 'email') {
+    if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === 'userName') {
+    } else if (inputType === "userName") {
       setUserName(inputValue);
     } else {
       setMessage(inputValue);
@@ -34,7 +34,7 @@ export default function Contact() {
 
     // Will check if the email is not valid or if the userName is empty. If so will displayed an error message on the page.
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email, message, or username is invalid');
+      setErrorMessage("Email, message, or username is invalid");
       // Will exit out of the code block if something is wrong so that the user can correct it
       return;
     }
@@ -56,9 +56,9 @@ export default function Contact() {
       );
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setUserName('');
-    setMessage('');
-    setEmail('');
+    setUserName("");
+    setMessage("");
+    setEmail("");
   };
 
   return (

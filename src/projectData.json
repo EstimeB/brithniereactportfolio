@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "name": "Social Network API",
+      "description": "API built for social network web application. Non-deployable application. Created to handle large amounts of unstructured data.",
+      "tools": "JavaScript, Express, MongoDB, Mongoose ODM",
+      "googleDocUrl": "https://drive.google.com/file/d/1OYTHauolP-Th4x_QNGfMIOgLChFiMXC3/view",
+      "githubUrl": "https://github.com/EstimeB/Social-Web_Net-API"
+    },
+    {
+      "name": "Tech Blog",
+      "description": "CMS-style blog site similar to a wordpress site. Follows the MVC paradigm in its architectural structure.",
+      "tools": "JavaScript, MVC, SQL, Handlebars, CSS, MySQL",
+      "appUrl": "https://quiet-woodland-72863.herokuapp.com/",
+      "githubUrl": "https://github.com/EstimeB/The_Technological-Blog"
+    },
+    {
+      "name": "",
+      "description": "",
+      "tolls": "",
+      "youtubeUrl": "",
+      "githubUrl": ""
+    }
+  ]
+}
