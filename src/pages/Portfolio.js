@@ -12,10 +12,10 @@ import passgen from "../images/p-g.jpg";
 
 export default function Portfolio() {
   return (
-    <div style={styles.div}>
+    <div style={styles.main}>
       <h1 style={styles.h1}>Portfolio</h1>
-      <ul style={styles.pUl}>
-        {/* <li>
+      {/* <ul style={styles.pUl}> */}
+        {/* <div style={styles.div}>
           <a style={styles.p} target="_blank" rel="noreferrer" href="">
           
             <br></br>
@@ -24,9 +24,9 @@ export default function Portfolio() {
              GitHub
             </a>
           </a>
-        </li> */}
+        </div> */}
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -36,6 +36,7 @@ export default function Portfolio() {
             Tech Blog
             <br></br>
             <img src={techb} alt="techBlog" style={styles.img1} />
+          </a>
             <br></br>
             <a
               style={styles.p}
@@ -45,10 +46,9 @@ export default function Portfolio() {
             >
               Tech Blog GitHub
             </a>
-          </a>
-        </li>
+        </div>
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -68,9 +68,9 @@ export default function Portfolio() {
               E-Commerce Back End GitHub
             </a>
           </a>
-        </li>
+        </div>
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -94,9 +94,9 @@ export default function Portfolio() {
               Employee Management System GitHub
             </a>
           </a>
-        </li>
+        </div>
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -120,9 +120,9 @@ export default function Portfolio() {
               Note Taker GitHub
             </a>
           </a>
-        </li>
+        </div>
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -153,9 +153,9 @@ export default function Portfolio() {
               </a>
             </a>
           </a>
-        </li>
+        </div>
 
-        {/* <li>
+        {/* <div style={styles.div}>
           <a style={styles.p} target="_blank" rel="noreferrer" href="">
           Good README Generator
             <br></br>
@@ -164,9 +164,9 @@ export default function Portfolio() {
               Good README Generator GitHub
             </a>
           </a>
-        </li> */}
+        </div> */}
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -191,9 +191,9 @@ export default function Portfolio() {
               Project One GitHub
             </a>
           </a>
-        </li>
+        </div>
 
-        {/* <li>
+        {/* <div style={styles.div}>
           <a style={styles.p} target="_blank" rel="noreferrer" href="">
           Weather Dashboard
             <br></br>
@@ -202,9 +202,9 @@ export default function Portfolio() {
              Weather Dashboard GitHub
             </a>
           </a>
-        </li> */}
+        </div> */}
 
-        {/* <li>
+        {/* <div style={styles.div}>
           <a style={styles.p} target="_blank" rel="noreferrer" href="">
           Day Planner
             <br></br>
@@ -213,9 +213,9 @@ export default function Portfolio() {
              Day Planner GitHub
             </a>
           </a>
-        </li> */}
+        </div> */}
 
-        {/* <li>
+        {/* <div style={styles.div}>
           <a style={styles.p} target="_blank" rel="noreferrer" href="">
             Regex Tutorial
             <br></br>
@@ -223,9 +223,9 @@ export default function Portfolio() {
             <br></br>
             <a style={styles.p} target="_blank" rel="noreferrer" href="">Regex Tutorial GitHub</a>
           </a>
-        </li> */}
+        </div> */}
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -245,9 +245,9 @@ export default function Portfolio() {
               Code Quiz GitHub
             </a>
           </a>
-        </li>
+        </div>
 
-        <li>
+        <div style={styles.div}>
           <a
             style={styles.p}
             target="_blank"
@@ -271,11 +271,11 @@ export default function Portfolio() {
               Password Generator GitHub
             </a>
           </a>
-        </li>
-      </ul>
+        </div>
+      {/* </ul> */}
       <h3 style={styles.h3}>Projects</h3>
       <p style={styles.p}>
-        Web pages' fit most screen size. Scroll for more images and click on
+        Web pages' fit most screen size. Scroll for more images and cdivck on
         each for demonstration.
       </p>
     </div>
@@ -283,7 +283,7 @@ export default function Portfolio() {
 }
 
 const styles = {
-  div: {
+  main: {
     textAlign: "center",
     textShadow: "15px 15px 35px rgb(151, 151, 143)",
   },
@@ -293,7 +293,7 @@ const styles = {
     height: "180px",
   },
   h1: {
-    marginTop: "130px",
+    marginTop: "70px",
     fontSize: "45px",
     textAlign: "center",
   },
@@ -305,6 +305,10 @@ const styles = {
     marginTop: "-15px",
     textDecoration: "none",
     color: "black",
+  },
+  div: {
+    marginBottom: "25px",
+
   },
   pUl: {
     listStyleType: "none",

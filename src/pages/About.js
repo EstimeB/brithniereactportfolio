@@ -7,12 +7,12 @@ export default function About() {
       <img style={styles.img1} src={aboutI} alt="Avatar" />
       <h1 style={styles.h1}>About me</h1>
       <p style={styles.p}>
-        Will soon graduate from full stack academy. Currently learning and will
-        soon be an expert in the ins and outs of the web. Already am obsses with
-        the field and expect to be an outstanding full stack web developer. I
+        Hold a Bachelor of Science in Psychology, graduated and earned a developer certificate from the University of Arizona Coding BootCamp (in collaboration with Trilogy Education Services). Learned many technologies and skills throughout the journey, will
+        soon be an expert in the ins and outs of the web. Am already very passionate with
+        the field and expect to do my very best in becoming an outstanding full stack web developer/software engineer. I
         like cleanly written codes and when it comes to CSS/server side
-        scripting, I am obsessed with the details and ensuring that all users
-        get the experience they deserve.
+        scripting, I like to focus on the details to ensure that all users
+        get the best experience.
       </p>
     </div>
   );

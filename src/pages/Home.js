@@ -9,7 +9,7 @@ export default function Home() {
       <img style={styles.img1} src={avatar} alt="Avatar" />
       <h1 style={styles.h1}>Brithnie Estime</h1>
       <h3 style={styles.h3}>Full Stack Web Developer</h3>
-      <p style={styles.p}>Knowledgeable and proficient in many technologies.</p>
+      <p style={styles.p}>U.S. Army veteran with a psychology background.</p>
       <a href="https://github.com/EstimeB" target="_blank" rel="noreferrer">
         <img style={styles.iconG} src={github} alt="GitHub" />
       </a>

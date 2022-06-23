@@ -22,4 +22,5 @@ body {
 
 .active {
   text-shadow: 0px 0px 15px rgb(252, 181, 1);
+  font-weight: bold;
 }

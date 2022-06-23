@@ -11,7 +11,7 @@ export default function Resume() {
         work, excellent problem-solving skills. Proficient in programing
         languages and frameworks like JavaScript, HTML, CSS, SQL, jQuery,
         Bootstrap, Node, MySQL, MongoDB, React, Express, and more (Architectural
-        patterns, techniques, paradigms, ...). Working on improving my
+        patterns, techniques, paradigms, ...). Working every day on improving my
         communication skills and crucial skills like web literacy, my ability to
         explain technical matters clearly, and more.
       </p>
