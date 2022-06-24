@@ -11,6 +11,13 @@
     height: 380px;
 }
 
+/* @media (max-width: 950px) {
+
+    .main {
+        display: flex;
+    flex-direction: column;
+    }
+} */
 /*     
     //   h1: {
     //     marginTop: "70px",

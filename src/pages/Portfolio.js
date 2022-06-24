@@ -1,6 +1,6 @@
 import React from "react";
 // importing project card & data
-import Project from "../components/Project";
+import Project from "../components/Project.js";
 import projData from "../projectData.json";
 
 // importing demo pict
