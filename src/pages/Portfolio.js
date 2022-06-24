@@ -18,7 +18,6 @@ const demoPict = {
   ecBe: eComBE,
 };
 
-
 // Project card
 function Project(props) {
   return (
@@ -33,9 +32,17 @@ function Project(props) {
         </a>
       </div>
       <div>
-        <h3>{props.project.name}</h3>
+        <h2>{props.project.name}</h2>
         <p>{props.project.description}</p>
         <p>{props.project.tools}</p>
+        <div className="links">
+          <a href={props.project.appDemoUrl} target="_blank" rel="noreferrer">
+            <p>Demo</p>
+          </a>
+          <a href={props.project.githubUrl} target="_blank" rel="noreferrer">
+            <p>Github</p>
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -44,7 +51,7 @@ function Project(props) {
 export default function Portfolio() {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 className="porth1">Projects</h1>
       {projData.projects.map((props) => (
         <Project
           key={props.name}
