@@ -69,7 +69,8 @@ export default function Resume() {
 
 const styles = {
   div: {
-    // textAlign: "center",
+    marginLeft: "50px",
+    marginRight: "50px",
     textShadow: "15px 15px 35px rgb(151, 151, 143)",
   },
   h1: {

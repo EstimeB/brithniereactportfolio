@@ -28,6 +28,8 @@ const styles = {
   div: {
     textAlign: "center",
     textShadow: "15px 15px 35px rgb(151, 151, 143)",
+    marginLeft: "50px",
+    marginRight: "50px",
   },
   img1: {
     marginTop: "130px",

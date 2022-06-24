@@ -1,8 +1,8 @@
 .main {
     box-shadow: 15px 15px 35px rgb(151, 151, 143);
     border-radius: 5px;
-    background-color: black;
-    text-shadow: 15px 15px 35px rgb(151, 151, 143);
+    background-color: rgb(41, 40, 40);
+    text-shadow: 15px 15px 35px rgb(41, 40, 40);
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
@@ -36,10 +36,12 @@
     text-decoration: underline;
 }
 
-/* @media (max-width: 950px) {
-
+@media (min-width: 950px) {
     .main {
         display: flex;
-    flex-direction: column;
     }
-} */
+    .imgSect {
+        width: 420px;
+    height: 236px;
+    }
+}

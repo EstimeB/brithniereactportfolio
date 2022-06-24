@@ -22,7 +22,7 @@ const demoPict = {
 function Project(props) {
   return (
     <div className="main">
-      <div>
+      <div className="imgSect">
         <a href={props.project.appDemoUrl} target="_blank" rel="noreferrer">
           <img
             className="portPict"
